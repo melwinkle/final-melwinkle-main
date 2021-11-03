@@ -149,8 +149,8 @@ animation: gradient 15s ease infinite;
       <button class="btn btn-block my-4 waves-effect z-depth-0"  style="background:rgb(6, 24, 9);width:40%;margin-left:100px;color:white" name= "submit" type="submit">SIGN IN</button>
      
           <!-- Forgot password -->
-          <a href="/final-melwinkle/employee/reset_password.php">Forgot password?</a> <p >New Employee?
-        <a href="/final-melwinkle/employee/verify.php">Verify</a>
+          <a href="employee/reset_password.php">Forgot password?</a> <p >New Employee?
+        <a href="employee/verify.php">Verify</a>
       </p>
         
       
