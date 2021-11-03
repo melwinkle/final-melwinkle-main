@@ -12,7 +12,7 @@ $id=$_POST['id'];
   $sql="UPDATE Employee_Log_in set Password='$password' where EmployeeID=$id";
   $result=mysqli_query($conn,$sql);
   if($result){
-    header("Location: index.php?reset");
+    header("Location: ../index.php?reset");
   }else{
     header("Location: reset_password.php?noreset");
   }
