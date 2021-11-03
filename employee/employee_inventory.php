@@ -15,8 +15,9 @@
         $lname=$row["EmployeeLname"];
     }   
     
-    echo "hello";
+
 }
+echo "hello";
 
      ?>
 
