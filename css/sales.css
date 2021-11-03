@@ -1,0 +1,41 @@
+.form-control input{
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 80%;
+    padding: 9px 8px;
+    flex: 5 2;
+    margin-top:5px;
+    margin-left:15px;
+}
+
+
+.form-control label{
+    padding:10px 9px;
+    flex: 5 2;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: -20px;
+}
+
+
+.form-control select{
+    padding: 5px;
+    margin-bottom: 12px;
+    width: 80%;
+    padding: 9px 8px;
+    flex: 5 2;
+    margin-top:5px;
+    margin-left:15px;
+}
+
+    
+  body{
+    background-color: #ddf2e2;
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    height:100%;
+  }
