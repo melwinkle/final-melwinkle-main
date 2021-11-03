@@ -13,12 +13,9 @@
         $fname=$row["EmployeeFname"];
        
         $lname=$row["EmployeeLname"];
-    }
-
-
-
+    }   
     
-    
+    echo "hello";
 }
 
      ?>
