@@ -8,7 +8,7 @@ session_start();
 if(!($_SESSION["loggedin"])){
     header("Location:index.php");
 }
-require_once("../employee/connection.php");
+require_once("../../employee/connection.php");
 
 
 
