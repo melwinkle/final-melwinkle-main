@@ -139,7 +139,7 @@ else if(isset($_GET['noreset'])){
 <script>
 
 function log(){
-    window.location.href=("index.php");
+    window.location.href=("../index.php");
 
 }
 </script>
