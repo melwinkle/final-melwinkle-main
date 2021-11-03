@@ -2,7 +2,7 @@
 <?php
 error_reporting(E_ALL);
 ini_set('display_errors', 1); 
-require_once("connection.php");
+require_once("../employee/connection.php");
 
 if(isset($_POST['submit'])){ 
     $username=$_POST['EmployeeID'];
