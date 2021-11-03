@@ -39,18 +39,18 @@ $stmt->close();
               session_start();
         $_SESSION["loggedin"] = true;
 		$_SESSION['id'] = $username;
-        header('Location: administrator/administrator_dashboard.php?successful');
+        header('Location: employee/administrator/administrator_dashboard.php?successful');
             }else if($res['DepartmentID']==1){
               session_start();
                 $_SESSION["loggedin"] = true;
                 $_SESSION['id'] = $username;
-                header('Location: employee_dashboard.php?successful');
+                header('Location: employee/employee_dashboard.php?successful');
 			}
 			else{
         session_start();
 				$_SESSION["loggedin"] = true;
                 $_SESSION['id'] = $username;
-                header('Location: employee_dashboard_1.php?successful');
+                header('Location: employee/employee_dashboard_1.php?successful');
 			}
     }
     else{
