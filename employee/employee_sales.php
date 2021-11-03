@@ -1,7 +1,7 @@
 <!-- This is tfor viewing all sales -->
 <?php
      session_start();
-     require_once("connection.php");
+     require_once("../../employee/connection.php");
 
 
      if($_SESSION["loggedin"]){

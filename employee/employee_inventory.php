@@ -1,7 +1,7 @@
 <!-- This is tto view all the items in the inventory -->
 <?php
      session_start();
-     require_once("connection.php");
+     require_once("../../employee/connection.php");
 
 
      if($_SESSION["loggedin"]){

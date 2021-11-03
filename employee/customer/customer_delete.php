@@ -2,7 +2,7 @@
 
 <?php
 
-require_once('connection.php');
+require_once('../../employee/connection.php');
 $cid=$_GET['cid'];
 
 

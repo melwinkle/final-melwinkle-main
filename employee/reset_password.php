@@ -2,7 +2,7 @@
 <!-- This is to reset passwords -->
 <?php
 
-require_once("connection.php");
+require_once("../../employee/connection.php");
 if(isset($_POST['submit'])){
   $reset=$_POST['newpassword'];
   $password=password_hash($reset,PASSWORD_DEFAULT);

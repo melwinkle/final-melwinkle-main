@@ -1,7 +1,7 @@
 
 <!-- This is to update an inventory item -->
 <?php
-     require_once("connection.php");
+     require_once("../../employee/connection.php");
 
     $sid=$_GET['sid'];
     

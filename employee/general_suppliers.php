@@ -2,7 +2,7 @@
 
 <?php
      session_start();
-     require_once("connection.php");
+     require_once("../../employee/connection.php");
     $id=$_SESSION['id'];
 
      if($_SESSION["loggedin"]){

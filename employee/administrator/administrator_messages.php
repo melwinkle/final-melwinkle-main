@@ -10,7 +10,7 @@ if(!($_SESSION["loggedin"])){
 }
 
 
-require_once("connection.php");
+require_once("../../employee/connection.php");
 $id=$_SESSION['id'];
 
 

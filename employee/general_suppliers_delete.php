@@ -2,7 +2,7 @@
 <!-- This is to make a supplier inactive(delete) -->
 
 <?php 
-require_once("connection.php");
+require_once("../../employee/connection.php");
 $sid=$_GET['sid'];
 
 if(isset($_POST['delete'])){

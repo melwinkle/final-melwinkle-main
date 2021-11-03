@@ -1,6 +1,6 @@
 <!-- This is for making and employee inactive(fired) -->
 <?php
-require_once("connection.php");
+require_once("../../employee/connection.php");
 if(isset($_POST['delete'])){
     $EID=$_GET['eid'];
 

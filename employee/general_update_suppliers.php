@@ -2,7 +2,7 @@
 
 <?php
      session_start();
-     require_once("connection.php");
+     require_once("../../employee/connection.php");
     $sid=$_GET['SID'];
     $id=$_GET['sid'];
 

@@ -2,7 +2,7 @@
 <!-- This is for viewing all tests -->
 <?php
      session_start();
-     require_once("connection.php");
+     require_once("../../employee/connection.php");
 
 
      if($_SESSION["loggedin"]){

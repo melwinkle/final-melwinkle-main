@@ -2,7 +2,7 @@
 
 
 <?php
-require_once("connection.php");
+require_once("../../employee/connection.php");
 if(isset($_POST['submit'])){
     $EID=$_POST['id'];
     $FN=$_POST['fname'];

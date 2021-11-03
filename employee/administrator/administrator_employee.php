@@ -9,7 +9,7 @@ if(!($_SESSION["loggedin"])){
     header("Location:index.php");
 }
 
-require_once("connection.php");
+require_once("../../employee/connection.php");
 
 $id=$_SESSION['id'];
 

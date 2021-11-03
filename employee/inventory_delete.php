@@ -1,7 +1,7 @@
 <!-- This is to make an item unavailable -->
 <?php
 
-require_once('connection.php');
+require_once('../../employee/connection.php');
 $cid=$_GET['sid'];
 
 

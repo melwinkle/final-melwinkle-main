@@ -2,7 +2,7 @@
 <!-- This is to verify if an employee is in the system -->
 <?php
 
-require_once("connection.php");
+require_once("../../employee/connection.php");
 if(isset($_POST['submit'])){
   $full=$_POST['fullname'];
   $pieces = explode(" ", $full);
