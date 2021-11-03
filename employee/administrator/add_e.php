@@ -2,7 +2,7 @@
 <!-- This is the php file for adding a new employee -->
 <?php
 
-require_once("connection.php");
+require_once("../../employee/connection.php");
 
 if(isset($_POST['submit'])){
     $FN=$_POST['fname'];

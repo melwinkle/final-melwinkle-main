@@ -30,7 +30,7 @@ if(isset($_POST['deletec'])){
         $req=mysqli_query($conn,$request);
     
         if($req){
-            header("Location: /final-melwinkle/employee/customer/customer.php?pr");
+            header("Location: ../../employee/customer/customer.php?pr");
     
         }
     }
@@ -121,7 +121,7 @@ if(isset($_POST['deletec'])){
                                 $req=mysqli_query($conn,$request);
                             
                                 if($req){
-                                    header("Location: /final-melwinkle/employee/administrator/administrator_dashboard.php?messagesent");
+                                    header("Location: ../../employee/administrator/administrator_dashboard.php?messagesent");
                             
                                 }
                             }
@@ -136,7 +136,7 @@ if(isset($_POST['deletec'])){
                                     $req=mysqli_query($conn,$request);
                                 
                                     if($req){
-                                        header("Location: /final-melwinkle/employee/administrator/administrator_dashboard.php?messagesent");
+                                        header("Location: ../../employee/administrator/administrator_dashboard.php?messagesent");
                                 
                                     }
                                 }

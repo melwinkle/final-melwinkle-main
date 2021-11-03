@@ -11,7 +11,7 @@
           
           <!-- Modal body -->
           <div class="modal-body">
-          <form action="/final-melwinkle/employee/employee_request.php?cid=<?php echo $Customer;?>" method="post">
+          <form action="../../employee/employee_request.php?cid=<?php echo $Customer;?>" method="post">
           <label for="type">REQUEST TYPE </label>
           <input class="form-control" type="text" name="type" id='type' value="DELETE ITEM" readonly><br>
 

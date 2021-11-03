@@ -175,7 +175,7 @@
           
           <!-- Modal body -->
           <div class="modal-body">
-          <form action="/final-melwinkle/employee/employee_request.php?cid=<?php echo $id;?>" method="post">
+          <form action="../../employee/employee_request.php?cid=<?php echo $id;?>" method="post">
           <label for="type">REQUEST TYPE </label>
           <input class="form-control" type="text" name="type" id='type' value="UPDATE PROFILE" readonly><br>
 
@@ -211,7 +211,7 @@
           
           <!-- Modal body -->
           <div class="modal-body">
-          <form action="/final-melwinkle/employee/employee_request.php?cid=<?php echo $id;?>" method="post">
+          <form action="../../employee/employee_request.php?cid=<?php echo $id;?>" method="post">
           <label for="type">REQUEST TYPE </label>
           <input class="form-control" type="text" name="type" id='type' value="REQUEST LEAVE" readonly><br>
 

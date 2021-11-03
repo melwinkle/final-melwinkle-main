@@ -69,8 +69,8 @@ $row_d=mysqli_fetch_assoc($res);
 
     </style>
    
-   <link rel="stylesheet" href="/final-melwinkle/css/main.css">
-   <link rel="stylesheet" href="/final-melwinkle/css/sales.css">
+   <link rel="stylesheet" href="../../css/main.css">
+   <link rel="stylesheet" href="../../css/sales.css">
 </head>
 <body>
 
@@ -113,11 +113,11 @@ $row_d=mysqli_fetch_assoc($res);
   <nav id="sidebar" aria-label="side">
 <ul class="list-items">
 
-  <li><a href='/final-melwinkle/employee/employee_dashboard_1.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
-  <li><a href='/final-melwinkle/employee/employee_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>
+  <li><a href='../../employee/employee_dashboard_1.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
+  <li><a href='../../employee/employee_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>
 
 
-<li><a href="/final-melwinkle/employee/employee_log_out.php">  <i class='icon ion-md-power' size='large'></i> LOG OUT</a></li>
+<li><a href="../../employee/employee_log_out.php">  <i class='icon ion-md-power' size='large'></i> LOG OUT</a></li>
 </ul>
 </nav>
   </div>

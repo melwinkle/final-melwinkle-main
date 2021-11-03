@@ -28,7 +28,7 @@ if(isset($_POST['submit'])){
 
         $_SESSION["loggedin"] = true;
 		$_SESSION['id'] = $username;
-        header('Location: /final-melwinkle/administrator/administrator_dashboard.php');
+        header('Location: ../../administrator/administrator_dashboard.php');
             }else if($row_d['DepartmentID']==1){
                 $_SESSION["loggedin"] = true;
                 $_SESSION['id'] = $username;

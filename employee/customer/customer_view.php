@@ -36,8 +36,8 @@ $cid=$_GET['cid'];
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 <script src="sweetalert2.all.min.js"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-   <link rel="stylesheet" href="/final-melwinkle/css/main.css">
-   <link rel="stylesheet" href="/final-melwinkle/css/sales.css">
+   <link rel="stylesheet" href="../../css/main.css">
+   <link rel="stylesheet" href="../../css/sales.css">
 </head>
 <body>
 
@@ -46,7 +46,7 @@ $cid=$_GET['cid'];
      
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
-          <a class="nav-link" href="/final-melwinkle/employee/employee_profile.php"><?php
+          <a class="nav-link" href="../../employee/employee_profile.php"><?php
     
 
         echo  "Welcome, ".$fname." ".$lname;
@@ -68,21 +68,21 @@ $cid=$_GET['cid'];
  $row_d=mysqli_fetch_assoc($res);
 
  if($row_d['DepartmentID']==4){
-  echo "<li><a href='/final-melwinkle/employee/administrator/administrator_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
-  <li><a href='/final-melwinkle/employee/administrator/administrator_employee.php'><i class='icon ion-md-people' size='large'></i>Employee</a></li>
-  <li><a href='/final-melwinkle/employee/administrator/administrator_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
+  echo "<li><a href='../../employee/administrator/administrator_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
+  <li><a href='../../employee/administrator/administrator_employee.php'><i class='icon ion-md-people' size='large'></i>Employee</a></li>
+  <li><a href='../../employee/administrator/administrator_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
 }else{
-  echo "<li><a href='/final-melwinkle/employee/employee_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
-  <li><a href='/final-melwinkle/employee/employee_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
+  echo "<li><a href='../../employee/employee_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
+  <li><a href='../../employee/employee_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
 }
 
 ?>
-<li><a href="/final-melwinkle/employee/employee_sales.php"><i class='icon ion-md-cash' size='large'></i> Sales</a></li>
-<li><a href="/final-melwinkle/employee/employee_inventory.php"> <i class='icon ion-md-hammer' size='large'></i> Inventory</a></li>
-<li><a href="/final-melwinkle/employee/customer/customer.php"> <i class='icon ion-md-people' size='large'></i> Customers</a></li>
-<li><a href="/final-melwinkle/employee/employee_tests.php">  <i class='icon ion-md-clipboard' size='large'></i> Tests</a></li>
-<li><a href="/final-melwinkle/employee/general_suppliers.php">  <i class='icon ion-md-basket' size='large'></i> Suppliers</a></li>
-<li><a href='/final-melwinkle/employee/bin.php'><i class='icon ion-md-trash' size='large'></i> Bin</a></li>
+<li><a href="../../employee/employee_sales.php"><i class='icon ion-md-cash' size='large'></i> Sales</a></li>
+<li><a href="../../employee/employee_inventory.php"> <i class='icon ion-md-hammer' size='large'></i> Inventory</a></li>
+<li><a href="../../employee/customer/customer.php"> <i class='icon ion-md-people' size='large'></i> Customers</a></li>
+<li><a href="../../employee/employee_tests.php">  <i class='icon ion-md-clipboard' size='large'></i> Tests</a></li>
+<li><a href="../../employee/general_suppliers.php">  <i class='icon ion-md-basket' size='large'></i> Suppliers</a></li>
+<li><a href='../../employee/bin.php'><i class='icon ion-md-trash' size='large'></i> Bin</a></li>
 </ul>
 </nav>
   </div>
@@ -209,7 +209,7 @@ $cid=$_GET['cid'];
 
 
 
-<script src="/final-melwinkle/js/sales.js"></script>
+<script src="../../js/sales.js"></script>
 </body>
 
 </html>

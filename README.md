@@ -16,7 +16,7 @@ No transaction or sale is deleted from database. This is to protect the data and
 
 AZURE LINK
 Below is the link to my azure
-http://brightpharmacy.eastus.cloudapp.azure.com/final-melwinkle/employee/
+http://brightpharmacy.eastus.cloudapp.azure.com../../employee/
 
 
 INSTRUCTIONS TO BUILD APPLICATION
