@@ -98,13 +98,8 @@ input.parsley-success,
       <ul class="navbar-nav px-3">
         <li class="nav-item text-nowrap">
           <a class="nav-link" href="../../employee/employee_profile.php"><?php
-    
 
         echo  "Welcome, ".$fname." ".$lname;
-    
-    
-      
-  
     ?></a>
         </li>
       </ul>
@@ -120,12 +115,12 @@ $res=mysqli_query($conn,$depart);
 $row_d=mysqli_fetch_assoc($res);
 
 if($row_d['DepartmentID']==4){
-  echo "<li><a href='../../employee/administrator/administrator_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
-  <li><a href='../../employee/administrator/administrator_employee.php'><i class='icon ion-md-people' size='large'></i>Employee</a></li>
-  <li><a href='../../employee/administrator/administrator_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
+  echo "<li><a href='administrator/administrator_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
+  <li><a href='administrator/administrator_employee.php'><i class='icon ion-md-people' size='large'></i>Employee</a></li>
+  <li><a href='administrator/administrator_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
 }else{
-  echo "<li><a href='../../employee/employee_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
-  <li><a href='../../employee/employee_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
+  echo "<li><a href='employee/employee_dashboard.php'><i class='icon ion-md-home' size='large'></i> Dashboard</a></li>
+  <li><a href='employee/employee_messages.php'><i class='icon ion-md-mail' size='large'></i> Messages</a></li>";
 }
 
 ?>
@@ -179,10 +174,6 @@ if($row_d['DepartmentID']==4){
       </th>
       <th scope="col">Actions
       </th>
-     
-      
-
-
     </tr>
   </thead>
   <tbody>
