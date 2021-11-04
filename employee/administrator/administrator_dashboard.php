@@ -155,7 +155,7 @@ if($_SESSION["loggedin"]){
 <li><a href="../../employee/administrator/administrator_employee.php">  <i class='icon ion-md-people' size='large'></i> Employee</a></li>
 <li><a href="../../employee/administrator/administrator_messages.php">  <i class='icon ion-md-mail' size='large'></i> Messages</a></li>
 <li><a href="../../employee/employee_sales.php"><i class='icon ion-md-cash' size='large'></i> Sales</a></li>
-<li><a href="../../employee/employee_inventory.php"> <i class='icon ion-md-hammer' size='large'></i> Inventory</a></li>
+<li><a href="../../employee/employee_inventory.php/?pop"> <i class='icon ion-md-hammer' size='large'></i> Inventory</a></li>
 <li><a href="../../employee/customer/customer.php"> <i class='icon ion-md-people' size='large'></i> Customers</a></li>
 <li><a href="../../employee/employee_tests.php">  <i class='icon ion-md-clipboard' size='large'></i> Tests</a></li>
 <li><a href="../../employee/general_suppliers.php">  <i class='icon ion-md-basket' size='large'></i> Suppliers</a></li>

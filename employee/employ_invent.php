@@ -127,7 +127,7 @@ if($row_d['DepartmentID']==4){
 ?>
 
 <li><a href="../../employee/employee_sales.php"><i class='icon ion-md-cash' size='large'></i> Sales</a></li>
-<li><a href="../../employee/employee_inventory.php"> <i class='icon ion-md-hammer' size='large'></i> Inventory</a></li>
+<li><a href="../../employee/employ_invent.php"> <i class='icon ion-md-hammer' size='large'></i> Inventory</a></li>
 <li><a href="../../employee/customer/customer.php"> <i class='icon ion-md-people' size='large'></i> Customers</a></li>
 <li><a href="../../employee/employee_tests.php">  <i class='icon ion-md-clipboard' size='large'></i> Tests</a></li>
 <li><a href="../../employee/general_suppliers.php">  <i class='icon ion-md-basket' size='large'></i> Suppliers</a></li>
@@ -373,6 +373,16 @@ if(isset($_GET['msuccess'])){
 
 
 </script>";
+}
+if(isset($GET['pop'])){
+    echo " <script >
+
+
+    swal('We OUTSIDEEE!');
+  
+  
+  
+  </script>";
 }
 
 if(isset($_GET['view'])){
